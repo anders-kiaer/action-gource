@@ -73,7 +73,9 @@ fi
 
 printf "\n> \t\tUsing optional params: ${OPTIONAL_PARAMS}"
 
-printf "\n> \tGource"
+GOURCE_VERSION=$(gource --help | head -n 1)
+
+printf "\n> \t${GOURCE_VERSION}"
 printf "\n> \t\tStarting Gource pipe for git repo"
 gource --seconds-per-day ${INPUT_GOURCE_SECONDS_PER_DAY} \
 	--user-scale ${INPUT_GOURCE_USER_SCALE} \
