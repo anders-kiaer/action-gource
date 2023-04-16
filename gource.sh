@@ -68,7 +68,7 @@ if [[ $INPUT_GOURCE_START_DATE == *[!\ ]* ]]; then # Temporyry fix, check if it'
     OPTIONAL_PARAMS+="--start-date ${INPUT_GOURCE_START_DATE} "
 fi
 if [[ ! -z "$INPUT_GOURCE_FILE_FILTER" ]]; then
-    OPTIONAL_PARAMS+="--file-filter \"$INPUT_GOURCE_FILE_FILTER\" "
+	OPTIONAL_PARAMS+="--file-filter $INPUT_GOURCE_FILE_FILTER "
 fi
 
 printf "\n> \t\tUsing optional params: ${OPTIONAL_PARAMS}"
@@ -109,7 +109,7 @@ gource --seconds-per-day ${INPUT_GOURCE_SECONDS_PER_DAY} \
 	--font-colour ${INPUT_GOURCE_OVERLAY_FONT_COLOR} \
 	--camera-mode overview \
 	--hide bloom,dirnames,files,filenames,mouse,root,tree,users,usernames \
-	--font-size 60 \
+	--font-size 16 \
 	--${OVERLAY_RES} ${OPTIONAL_PARAMS} \
 	--stop-at-end \
 	--dir-name-depth 3 \
