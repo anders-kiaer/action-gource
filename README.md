@@ -1,6 +1,6 @@
 <!-- Project img -->
 <p align="center">
-  <a href="https://github.com/nbproject/gource-action">
+  <a href="https://github.com/boundfoxstudios/gource-action">
     <img src="https://user-images.githubusercontent.com/24683383/92398226-79a40680-f128-11ea-9f54-6ccbaca4a6a5.png" width="200">
   </a>
 </p> 
@@ -8,13 +8,13 @@
 <!-- About -->
 <h2 align="center"> <b> Gource Action </b> </h2>
 <h4 align="center"> Action to visualize your source code using gource </h4>
-<h4 align="center"> Core image is comming from:  <a href="https://github.com/utensils/Envisaged">utensils/Envisaged</a></h4>
+<h4 align="center"> Core image is coming from:  <a href="https://github.com/boundfoxstudios/opengl">boundfoxstudios/opengl</a></h4>
 <br/>
 
 <!-- Pipes -->
 <p align="center">
-  <a href="https://github.com/NBprojekt/gource-action/actions?query=workflow%3A%22Gource+Action+Dev%22" alt="GitHub Dev Status">
-    <img src="https://github.com/NBprojekt/gource-action/workflows/Gource%20Action%20Dev/badge.svg">
+  <a href="https://github.com/BoundfoxStudios/gource-action/actions?query=workflow%3A%22Gource+Action+Dev%22" alt="GitHub Dev Status">
+    <img src="https://github.com/BoundfoxStudios/gource-action/workflows/Gource%20Action%20Dev/badge.svg">
   </a>
 </p>
 
@@ -49,12 +49,12 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
         
       - name: 'Gource Action'
-        uses: nbprojekt/gource-action@v1
+        uses: BoundfoxStudios/gource-action@v1
 
       - name: 'Upload gource video'
         uses: actions/upload-artifact@v2
@@ -92,7 +92,7 @@ jobs:
 
     steps:
       - name: 'Gource Action'
-        uses: nbprojekt/gource-action@v1
+        uses: BoundfoxStudios/gource-action@v1
         with:
           git_url: https://github.com/docker/cli
           gource_title: 'Docker CLI'
@@ -139,14 +139,6 @@ A full list of all available options can be found [here][gource-docs].
 
 > More comming soon.
 > If you are missin a parameter that you need just create a new issue with the title `Add support for --paramer-name` and `Feature Request: New Parameter`label. 
-
-## Todos
-
-- #1 Visualizing Multiple Repositories
-
-## Maintainer
-| [![NbProjekt](https://avatars3.githubusercontent.com/u/24683383?v=3&s=80)](https://github.com/NBprojekt) |
-| :---: |
 
 <!-- Links -->
 [docker-cli]: https://github.com/docker/cli

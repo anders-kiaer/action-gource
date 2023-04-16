@@ -1,6 +1,6 @@
-name: 'Gource-Action'
+name: 'Gource'
 description: 'Visualisation action for source control repositories using gource.'
-author: 'Norbert Bartko'
+author: 'Manuel Rauber'
 
 inputs:
   git_url:
@@ -110,4 +110,4 @@ runs:
 
 branding:
   icon: 'monitor'
-  color: 'purple'
+  color: 'orange'
