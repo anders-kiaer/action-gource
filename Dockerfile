@@ -1,4 +1,4 @@
-FROM utensils/opengl:stable
+FROM boundfoxstudios/opengl:stable
 
 # Install all needed runtime dependencies.
 RUN \
