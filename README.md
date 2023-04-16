@@ -13,8 +13,8 @@
 
 <!-- Pipes -->
 <p align="center">
-  <a href="https://github.com/BoundfoxStudios/action-gource/actions?query=workflow%3A%22Gource+Action+Dev%22" alt="GitHub Dev Status">
-    <img src="https://github.com/BoundfoxStudios/action-gource/workflows/Gource%20Action%20Dev/badge.svg">
+  <a href="https://github.com/BoundfoxStudios/action-gource/actions?query=workflow%3A%22Gource+Action+Build%22" alt="GitHub Build Status">
+    <img src="https://github.com/BoundfoxStudios/action-gource/workflows/Gource%20Action%20Build/badge.svg">
   </a>
 </p>
 
