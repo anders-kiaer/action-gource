@@ -1,6 +1,6 @@
 <!-- Project img -->
 <p align="center">
-  <a href="https://github.com/boundfoxstudios/gource-action">
+  <a href="https://github.com/boundfoxstudios/action-gource">
     <img src="https://user-images.githubusercontent.com/24683383/92398226-79a40680-f128-11ea-9f54-6ccbaca4a6a5.png" width="200">
   </a>
 </p> 
@@ -13,8 +13,8 @@
 
 <!-- Pipes -->
 <p align="center">
-  <a href="https://github.com/BoundfoxStudios/gource-action/actions?query=workflow%3A%22Gource+Action+Dev%22" alt="GitHub Dev Status">
-    <img src="https://github.com/BoundfoxStudios/gource-action/workflows/Gource%20Action%20Dev/badge.svg">
+  <a href="https://github.com/BoundfoxStudios/action-gource/actions?query=workflow%3A%22Gource+Action+Dev%22" alt="GitHub Dev Status">
+    <img src="https://github.com/BoundfoxStudios/action-gource/workflows/Gource%20Action%20Dev/badge.svg">
   </a>
 </p>
 
@@ -54,7 +54,7 @@ jobs:
           fetch-depth: 0
         
       - name: 'Gource Action'
-        uses: BoundfoxStudios/gource-action@v1
+        uses: BoundfoxStudios/action-gource@v2
 
       - name: 'Upload gource video'
         uses: actions/upload-artifact@v2
@@ -92,7 +92,7 @@ jobs:
 
     steps:
       - name: 'Gource Action'
-        uses: BoundfoxStudios/gource-action@v1
+        uses: BoundfoxStudios/action-gource@v2
         with:
           git_url: https://github.com/docker/cli
           gource_title: 'Docker CLI'
