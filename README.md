@@ -8,7 +8,7 @@
 <!-- About -->
 <h2 align="center"> <b> Gource Action </b> </h2>
 <h4 align="center"> Action to visualize your source code using gource </h4>
-<h4 align="center"> Core image is coming from:  <a href="https://github.com/boundfoxstudios/opengl">boundfoxstudios/opengl</a></h4>
+<h4 align="center"> Core image is coming from:  <a href="https://github.com/boundfoxstudios/docker-opengl">boundfoxstudios/docker-opengl</a></h4>
 <br/>
 
 <!-- Pipes -->
