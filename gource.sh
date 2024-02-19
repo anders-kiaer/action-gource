@@ -105,6 +105,7 @@ gource --seconds-per-day ${INPUT_GOURCE_SECONDS_PER_DAY} \
 	--auto-skip-seconds ${INPUT_GOURCE_AUTO_SKIP_SECONDS} \
 	--key \
 	--transparent \
+  --highlight-dirs \
 	--background-colour 202021 \
 	--font-colour ${INPUT_GOURCE_OVERLAY_FONT_COLOR} \
 	--camera-mode overview \
