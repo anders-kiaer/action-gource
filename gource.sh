@@ -90,6 +90,7 @@ gource --seconds-per-day ${INPUT_GOURCE_SECONDS_PER_DAY} \
 	--font-size ${INPUT_GOURCE_FONT_SIZE} \
 	--dir-name-depth ${INPUT_GOURCE_DIR_DEPTH} \
 	--filename-time ${INPUT_GOURCE_FILENAME_TIME} \
+  --highlight-dirs \
 	--max-user-speed ${INPUT_GOURCE_MAX_USER_SPEED} \
 	--bloom-multiplier 1.2 \
 	--${GOURCE_RES} ${OPTIONAL_PARAMS} \
