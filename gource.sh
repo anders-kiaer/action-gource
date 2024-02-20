@@ -81,7 +81,6 @@ gource --seconds-per-day ${INPUT_GOURCE_SECONDS_PER_DAY} \
 	--user-scale ${INPUT_GOURCE_USER_SCALE} \
 	--time-scale ${INPUT_GOURCE_TIME_SCALE} \
 	--auto-skip-seconds ${INPUT_GOURCE_AUTO_SKIP_SECONDS} \
-	--title "${INPUT_GOURCE_TITLE}" \
 	--background-colour ${INPUT_GOURCE_BACKGROUND_COLOR} \
 	--font-colour ${INPUT_GOURCE_FONT_COLOR} \
 	--user-image-dir ${GOURCE_USER_IMAGE_DIR} \
